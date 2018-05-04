@@ -1,0 +1,54 @@
+h2 {
+  font-family: "Verdana";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0;
+}
+
+.foldable-phone__section {
+  background-color: white;
+  padding: 20px 24px;
+}
+
+.foldable-phone__content {
+  display: none;
+}
+
+.foldable-phone__content li {
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .foldable-phone__content {
+    display: block;
+  }
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button3 {
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.float-left {
+  padding: 25px;
+}
